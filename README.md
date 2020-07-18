@@ -11,3 +11,14 @@ After:
 `DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 800, 93 }`
 
 Or by sending `M92 Z800` followed by `M500` after updating your firmware.
+
+
+
+# Auto Bed Leveling
+
+After `G28` add:
+
+```
+G29 ; auto bed leveling
+M420 S1 ; Use mesh leveling
+```
