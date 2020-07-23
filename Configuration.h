@@ -487,6 +487,8 @@
   #define DEFAULT_Ki 1.54
   #define DEFAULT_Kd 76.55
 
+// mine - M301 P25.01 I2.42 D64.53
+
   // Ultimaker
   //#define DEFAULT_Kp 22.2
   //#define DEFAULT_Ki 1.08
